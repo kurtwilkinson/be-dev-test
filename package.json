@@ -1,0 +1,23 @@
+{
+  "name": "upload_csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "csv-upload": "node src/scripts/csvUpload.js",
+    "test": "node src/tests/user-repository.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mysql2": "^3.19.1",
+    "nodemon": "^3.1.14",
+    "sequelize": "^6.37.8"
+  }
+}
